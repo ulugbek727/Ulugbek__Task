@@ -1,0 +1,48 @@
+@import "regular";
+$mainColor: white;
+
+
+@mixin mainButtonByParam($colorButton, $borderRadiusButton, $paddingBtn) {
+  padding: $paddingBtn;
+  color: white;
+  border: 1px solid $colorButton;
+  border-radius: $borderRadiusButton;
+  background-color: $colorButton;
+}
+
+body {
+  section {
+    .container {
+      .box {
+        width: 400px;
+        height: 200px;
+        background: $mainColor;
+        padding: 20px 15px;
+
+        button {
+
+          font-size: 20px;
+
+          &:nth-child(1) {
+            @include mainButtonByParam(red, 5px, 8px 16px);
+          }
+
+          &:nth-child(2) {
+            @include mainButtonByParam(blue, 15px, 8px 16px);
+          }
+        }
+
+        .text-1{
+          font-size: 20px;
+          font-weight: 800;
+          letter-spacing: 10px;
+        }
+
+        .text-2 {
+          @extend .text-1;
+          color: orange;
+        }
+      }
+    }
+  }
+}
