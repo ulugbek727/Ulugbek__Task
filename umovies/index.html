@@ -234,9 +234,7 @@
                 <h2 class="kino__info-title-second">RECOMMENDED MOVIES</h2>
             </div>
 
-            <div class="owl-carousel owl-theme kino__info_carousel">
-
-
+            <div class="owl-carousel owl-theme kino__slider kino__info_carousel">
                 <div class="item"><img src="img/aquamen.svg" alt="">
                     <h3 class="kino_name">Aquaman</h3>
                     <p class="kino_description">
@@ -348,7 +346,7 @@
             </div>
 
             <div class="kino__info_bonus">
-                <h3>Get a 40% OFF for first <br>
+                <h3 class="kino__info_bonus-h3">Get a 40% OFF for first <br>
                     <span> PREMIUM MEMBERSHIP</span>
                 </h3>
 
@@ -361,10 +359,107 @@
 
             </div>
 
+
+            <section class="wood__films">
+                <ul class="header__menu  wood__films-nav">
+                    <li class="header__menu-item wood__films-item">
+                        <a href="#!" class="header__menu-link wood__films-link">BOLLYWOOD</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#!" class="header__menu-link wood__films-link">HOLLYWOOD</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#!" class="header__menu-link wood__films-link">TOLLYWOOD</a>
+                    </li>
+                </ul>
+
+
+
+                <div class="owl-carousel owl-theme kino__info_carousel wood__films-carousel">
+                        <div class="item"><img src="img/uri.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/manikarnika.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/thacery.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/kesari.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/singham.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/uri.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/manikarnika.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/thacery.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/kesari.png" alt="">
+                        </div>
+                        <div class="item"><img src="img/singham.png" alt="">
+                        </div>
+                    </div>
+            </section>
+
+            <section class="top_actor">
+                    <div class="kino__info-title">
+                            <h3 class="kino__info-title-first">Top Actors</h3>
+                            <h2 class="kino__info-title-second">Movies By Actors</h2>
+                        </div>
+
+                        <div class="owl-carousel owl-theme kino__info_carousel  top_actor_carousel">
+                                <div class="item"><img src="img/jason.png" alt="">
+                                    <div class="top_actor_info">
+                                        <h3>Jason <br> Statham</h3>
+                                    </div>
+                                </div>
+                                <div class="item"><img src="img/rober.png" alt="">
+                                    <div class="top_actor_info">
+                                            <h3>Robert Downey  <br> Jr.</h3>
+                                        </div>
+                                </div>
+                                <div class="item"><img src="img/deepika.png" alt="">
+                                    <div class="top_actor_info">
+                                            <h3>Deepika  <br> Padukone</h3>
+                                        </div>
+                                </div>
+                                <div class="item"><img src="img/varun.png" alt="">
+                                    <div class="top_actor_info">
+                                            <h3>Varun  <br> Dhawan</h3>
+                                        </div>
+                                </div>
+                                <div class="item"><img src="img/allu.png" alt="">
+                                        </div>
+                                </div>
+                                <div class="item"><img src="img/jessica.png" alt="">
+                                    <div class="top_actor_info">
+                                            <h3>Jessica  <br> Alba</h3>
+                                        </div>
+                                </div>
+                                <div class="item"><img src="img/jason.png" alt="">
+                                    <div class="top_actor_info">
+                                            <h3>Jason <br> Statham</h3>
+                                        </div>
+                                </div>
+                                <div class="item"><img src="img/rober.png" alt="">
+                                    <div class="top_actor_info">
+                                            <h3>Jason <br> Statham</h3>
+                                        </div>
+                                </div>
+                                <div class="item"><img src="img/deepika.png" alt="">
+                                    <div class="top_actor_info">
+                                            <h3>Jason <br> Statham</h3>
+                                        </div>
+                                </div>
+                            </div>
+
+
+            
+            </section>
+
         </section>
 
 
-        sec
+
+
 
 
 
@@ -418,7 +513,7 @@
         })
 
 
-        $('.kino__info_carousel').owlCarousel({
+        $('.kino__slider').owlCarousel({
             loop: true,
             margin: 10,
             nav: true,
@@ -434,6 +529,43 @@
                 }
             }
         })
+
+                $('.wood__films-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+
+                $('.top_actor_carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+
+
+        
     </script>
 
 </body>

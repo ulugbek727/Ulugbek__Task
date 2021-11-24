@@ -229,6 +229,8 @@
     padding-right: 115px;
     padding-left: 115px;
     padding-top: 65px;
+    padding-bottom: 90px;
+
 
     &-title-first {
         font-family: 'Lato-Regular', sans-serif !important;
@@ -248,11 +250,13 @@
         text-transform: uppercase;
         letter-spacing: 5px;
         text-shadow: 0px 2px 46px rgba(0, 0, 0, 0.874399);
-        border-bottom: 0.3px solid #FFFFFF;
+        // border-bottom: 0.3px solid #FFFFFF;
         padding-bottom: 15px;
     }
 
+
 }
+
 
 .kino__info_carousel {
     .item {
@@ -314,6 +318,7 @@
             border-style: groove;
             border-radius: 6px;
             padding: 13px 50px;
+            display: inline-flex;
 
             &:hover {
                 background: #F3353E;
@@ -361,14 +366,36 @@
 }
 
 .kino__info_bonus {
-    background: url(../img/bonus_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    background: #2f3d53;
     height: 137px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 90px;
+    width: 100%;
+    border-radius: 12px;
+    border: 0.3px solid #F3353E;
+
+    &-h3 {
+        position: relative;
+        z-index: 22;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 135px;
+        width: 100%;
+        background: url(../img/line.png);
+        background-repeat: no-repeat;
+        border-radius: 12px;
+
+    }
+
+
 
     h3 {
         font-family: 'Lato-Bold', sans-serif !important;
@@ -402,11 +429,51 @@
             text-transform: uppercase;
             text-decoration: none;
             background: linear-gradient(270deg, #ED333C 15.25%, #EDA333 98.27%);
-box-shadow: -14px 9px 33px rgba(0, 0, 0, 0.5);
-border-radius: 6px;
-padding: 13px 65px;
-color: #ffffff;
-margin-right: 38px;
+            box-shadow: -14px 9px 33px rgba(0, 0, 0, 0.5);
+            border-radius: 6px;
+            padding: 13px 65px;
+            color: #ffffff;
+            margin-right: 38px;
         }
     }
+}
+
+
+.wood__films {
+    background: #000F26;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.wood__films-nav {
+    margin-bottom: 30px;
+}
+
+.top_actor {
+    margin-top: 90px;
+
+    &_info {
+        background: #263346;
+        height: 80px;
+        border-radius: 6px;
+        margin-top: -8px;
+        h3 {
+            font-family: 'Lato-Bold' !important;
+            font-size: 18px;
+            font-style: normal;
+            color: #FFFFFF;
+            padding-top: 12px;
+            padding-left: 12px;
+        }
+    }
+}
+
+.kino__info-title-second::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 430px;
+    background: #ffffff;
+    margin-top: 6px;
+    opacity: 0.3;
 }
