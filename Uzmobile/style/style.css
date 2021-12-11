@@ -548,4 +548,127 @@
   color: white;
   border: none;
 }
+
+.site_info-carousel {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.site_info_news {
+  max-width: 390px;
+  width: 100%;
+  margin-right: 14px;
+}
+
+.site_info_news-second {
+  max-width: 390px;
+  width: 100%;
+  margin-right: 14px;
+}
+
+.site_info_news-third {
+  max-width: 390px;
+  width: 100%;
+}
+
+.site_info {
+  padding-top: 150px;
+  background: #F6F6F6;
+}
+
+.site_info_news_title {
+  font-family: 'sd-bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.site_info_news_carousel {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 2px rgba(188, 188, 188, 0.25);
+          box-shadow: 0px 2px 2px rgba(188, 188, 188, 0.25);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.site_info_news_carousel_slide_title {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: -0.02em;
+  line-height: 34px;
+  color: #000000;
+}
+
+.site_info_news_carousel_slide_title:hover {
+  color: #00D74A;
+}
+
+.site_info_news_carousel_slide_txt {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 24px;
+  line-height: 40px;
+}
+
+.data {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 83px;
+}
+
+.site_map {
+  padding-top: 150px;
+  background: #F6F6F6;
+}
+
+.site_map_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.site_map_link {
+  font-family: 'sf-pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.block_first_number-call {
+  font-family: 'sf-bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.block_first_number-call svg {
+  padding-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */
