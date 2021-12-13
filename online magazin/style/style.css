@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  margin: 10px 0;
+}
+
+.nav-link {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  opacity: 0.4;
+  margin-right: 50px;
+}
+
+.nav-link:hover {
+  color: #000000;
+  opacity: 1;
+  border-bottom: 1px solid #000000;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+.navbar_icon i {
+  color: black;
+  margin-right: 55px;
+}
+
+.navbar_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__banner_logo {
+  margin-right: 100px;
+}
+
+.site__banner {
+  background-image: url(../img/banner_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site__banner h1 {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  padding-top: 160px;
+}
+
+.site__banner h2 {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.shop_now {
+  padding: 20px 90px;
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  background: #FFFFFF;
+  margin-top: 62px;
+  border: none;
+  margin-bottom: 163px;
+}
+/*# sourceMappingURL=style.css.map */
