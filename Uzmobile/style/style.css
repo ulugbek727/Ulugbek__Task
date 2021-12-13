@@ -657,6 +657,10 @@
   text-decoration: none;
 }
 
+.block_first_number {
+  margin-bottom: 38px;
+}
+
 .block_first_number-call {
   font-family: 'sf-bold';
   font-style: normal;
@@ -670,5 +674,128 @@
 
 .block_first_number-call svg {
   padding-right: 10px;
+}
+
+.block_first_number p {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  opacity: 0.3;
+  margin-top: 6px;
+}
+
+.footer_subtitle {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 19px;
+  margin-top: 60px;
+}
+
+.footer_banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block_second_number {
+  margin-bottom: 30px;
+}
+
+.block_second_number .block_second_link {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.block_second_number .block_second_link:hover {
+  color: #00D74A;
+}
+
+.link_market {
+  padding: 10px;
+  border: 2px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 125px;
+}
+
+.link_market img {
+  margin-right: 7px;
+}
+
+.market_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.market_1 {
+  margin-right: 16px;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+.footer__info p {
+  font-family: 'sf-pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.footer__social_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__social_link {
+  margin-right: 24px;
 }
 /*# sourceMappingURL=style.css.map */
